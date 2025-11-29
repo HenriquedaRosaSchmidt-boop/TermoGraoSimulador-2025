@@ -1,0 +1,26 @@
+>>> TermoGrãoSimulador 2025 <<<
+
+Recomendações para funcionamento do código.
+
+-----------------------------------------------------------------------
+
+Passo 1 — Instalar Python a partir da versão 3.13
+Baixe em: https://www.python.org/downloads/ 
+
+-----------------------------------------------------------------------
+
+Passo 2 — Instalar o VS Code (opcional mas recomendado) 
+Baixe em: https://code.visualstudio.com/ 
+
+-----------------------------------------------------------------------
+
+Passo 3 — bliotecas
+pip install PyQt5 numpy pandas matplotlib psySI
+
+-----------------------------------------------------------------------
+
+NOTA: O código utilizado para calcular psicrometria do ar foi o software psySI o qual não foi codado/programado pelo autor desse projeto, é possível encontrar o código através do link a seguir disponível no GUIHUB,
+
+https://github.com/longapalooza/psypy/blob/master/psySI.py
+
+Ou seja, o crédito total pelo código é atribuido ao usuário (longapalooza) no GUITHUB!
