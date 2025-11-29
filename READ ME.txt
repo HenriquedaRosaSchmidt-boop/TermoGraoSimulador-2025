@@ -23,4 +23,9 @@ NOTA: O código utilizado para calcular psicrometria do ar foi o software psySI 
 
 https://github.com/longapalooza/psypy/blob/master/psySI.py
 
+
 Ou seja, o crédito total pelo código é atribuido ao usuário (longapalooza) no GUITHUB!
+
+Ao abrir o VScode, implemente o código da psicrometria do ar e salve-o com o nome (psySI);
+
+A ordem de compilação deve ser respectivamente a seguinte: psySI > core > simulation > vertisec_gui_new.
