@@ -1,7 +1,6 @@
 # vertisec_gui_new.py
-
 #
-# Dependências: PyQt5, numpy, pandas, matplotlib, psySI (opcional), simulation (se disponível)
+# Dependências: PyQt5, numpy, pandas, matplotlib, psySI, simulation
 # Salve como vertisec_gui_new.py e execute no diretório com os módulos do projeto.
 
 from __future__ import annotations
@@ -778,4 +777,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
