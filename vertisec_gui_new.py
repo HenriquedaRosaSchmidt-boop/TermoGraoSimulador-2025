@@ -1,15 +1,8 @@
 # vertisec_gui_new.py
-# Versão completa atualizada conforme solicitado:
-# - Nome do programa: TermoGrãoSimulador 2025
-# - Tema claro científico (P/B) implementado com Qt StyleSheet e matplotlib rcParams
-# - Cortesia psicrometria posicionada à direita das descrições (sem Observações/Gráfico)
-# - Todas as saídas numéricas formatadas com 7 casas decimais
-# - Aba Gráficos: umidade vs alvo; temperaturas (Tg, Ta, Te); cargas térmicas (Q_inf, Q_prod, Q_trn, Q_total, Q_med em vermelho pontilhado)
-# - Recomputação robusta de Q_trn usando L = altura da camada e deltaT = Te - Tg, evitando ln <= 0
-# - Export .csv / .txt mantido
+
 #
 # Dependências: PyQt5, numpy, pandas, matplotlib, psySI (opcional), simulation (se disponível)
-# Salve como vertisec_gui_new.py e execute no diretório com os módulos do seu projeto.
+# Salve como vertisec_gui_new.py e execute no diretório com os módulos do projeto.
 
 from __future__ import annotations
 import sys
@@ -785,3 +778,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
