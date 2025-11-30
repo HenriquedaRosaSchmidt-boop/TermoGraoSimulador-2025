@@ -1,16 +1,7 @@
 # simulation.py
 """
 Simulador Thompson (adaptado para usar core.py).
-Substitua o arquivo existente por este para integração total com core.py.
 
-Retornos:
-  - dict com chaves: "df" (pandas.DataFrame), "summary" (dict), "plots" (lista vazia)
-Unidades e convenções:
-  - U: % base seca
-  - Temperaturas em °C
-  - dt_min: passo de tempo em minutos (configurável)
-  - energias internas calculadas no passo (kJ) e convertidas para kJ/h ao salvar
-  - carga_transmissao_kJ_min do core retorna kJ/min -> multiplicamos por 60 para kJ/h
 """
 from typing import Dict, Any
 import math
@@ -313,3 +304,4 @@ if __name__ == "__main__":
     res = sim.run()
     print("Summary:", res["summary"])
     print(res["df"].head())
+
